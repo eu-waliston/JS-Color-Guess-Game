@@ -68,3 +68,20 @@ button {
     -o-transition: all 0.3s;
 }
 
+button:hover {
+    background-color: #2C8E99;
+    color: white;
+}
+
+.selected {
+    background-color: #2C8E99;
+    color: white;
+}
+
+.square {
+    border-radius: 20%;
+}
+
+* {
+    border: 0px solid red;
+}
