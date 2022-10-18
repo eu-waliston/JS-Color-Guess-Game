@@ -1,23 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Color Guess Game</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Color Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
-<h1>The Great
-    <spna id="colos-display">RGB</spna>
-    Guessing Game
-</h1>
-
+<h1>The Great <span id="color-display">RGB</span> Guessing Game</h1>
 <div id="stripe">
     <button id="reset">New Colors</button>
-    <spna id="message"></spna>
+    <span id="message"></span>
     <button class="mode">Easy</button>
     <button class="mode selected">Hard</button>
 </div>
-
 <div id="container">
     <div class="square"></div>
     <div class="square"></div>
@@ -28,5 +23,6 @@
 </div>
 
 <script type="text/javascript" src="script.js"></script>
-</body>
+<!-- 	<script type="text/javascript" src="colorGame.js"></script>
+ --></body>
 </html>
